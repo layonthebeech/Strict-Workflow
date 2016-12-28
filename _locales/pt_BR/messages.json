@@ -7,7 +7,7 @@
     "message": "Ajuda a melhorar a produtidade com a técnica de Pomodoro: 25 minutos trabalhando sem distrações, seguido de 5 minutos de pausa. Repetindo a tarefa se necessário.",
     "description": "Description of the extension"
   },
-  
+
   "work": {
     "message": "trabalhar",
     "description": "The name of the work timer"
@@ -16,11 +16,18 @@
     "message": "pausar",
     "description": "The name of the break timer"
   },
+  "longBreak": {
+    "message": "long break",
+    "description": "The name of the long break timer"
+  },
   "minutes": {
     "message": "minutos",
     "description": "The name of the time interval representing 60 seconds"
   },
-  
+  "sessions": {
+    "message": "sessions",
+    "description": "The number of sessions before a long break"
+  },
   "site_blocked_info": {
     "message": "Página bloqueada enquanto não chegar a pausa programada.",
     "description": "Text for the blocked-site overlay, explaining that the site is blocked and when it will become unblocked"
@@ -29,7 +36,7 @@
     "message": "Volte ao trabalho! :)",
     "description": "Text for the blocked-site overlay, motivating the user to get back to work"
   },
-  
+
   "options_title": {
     "message": "Strict Workflow Configurações",
     "description": "The title of the options page"
@@ -86,7 +93,7 @@
     "message": "Salvo com sucesso",
     "description": "On the options page, message to indicate that the options have been saved"
   },
-  
+
   "timer_end_notification_header": {
     "message": "O tempo acabou!",
     "description": "Bold header of pop-up notification when a timer ends"

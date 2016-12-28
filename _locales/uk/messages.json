@@ -7,7 +7,7 @@
     "message": "Блокує веб-сайти, котрі вас відволікають, щоб ви могли працювати відповідно до техніки керування часом «помодоро».",
     "description": "Description of the extension"
   },
-  
+
   "work": {
     "message": "працювати",
     "description": "The name of the work timer"
@@ -20,7 +20,14 @@
     "message": "хв",
     "description": "The name of the time interval representing 60 seconds"
   },
-  
+  "longBreak": {
+    "message": "long break",
+    "description": "The name of the long break timer"
+  },
+  "sessions": {
+    "message": "sessions",
+    "description": "The number of sessions before a long break"
+  },
   "site_blocked_info": {
     "message": "Сторінку заблоковано до завершення робочого часу Помідорки.",
     "description": "Text for the blocked-site overlay, explaining that the site is blocked and when it will become unblocked"
@@ -29,7 +36,7 @@
     "message": "Повертайтеся до роботи!",
     "description": "Text for the blocked-site overlay, motivating the user to get back to work"
   },
-  
+
   "options_title": {
     "message": "Налаштування Суворої помідорки",
     "description": "The title of the options page"
@@ -82,7 +89,7 @@
     "message": "Зміни збережено",
     "description": "On the options page, message to indicate that the options have been saved"
   },
-  
+
   "timer_end_notification_header": {
     "message": "Час вичерпано!",
     "description": "Bold header of pop-up notification when a timer ends"
